@@ -11,6 +11,7 @@
 
 <p align="center">
   📍 Campinas/SP &nbsp;·&nbsp;
+  📞 (19) 9.9235-4165 (<b>whats</b>) &nbsp;·&nbsp; (11) 9.9229-0495<br>
   ✉️ <a href="mailto:gerson.zanon@outlook.com">gerson.zanon@outlook.com</a> &nbsp;·&nbsp;
   💼 <a href="https://www.linkedin.com/in/gersonzanon">linkedin.com/in/gersonzanon</a> &nbsp;·&nbsp;
   🐙 <a href="https://github.com/gersonzanon">github.com/gersonzanon</a>
@@ -34,7 +35,7 @@
 
 - Na Ypê, estruturou a consolidação de dados de sell-out e estoque provenientes de 20 fontes, incluindo Scanntech (Scannview e Scannmarket), Neogrid, MTRIX e Nielsen, além de modelos corporativos e acompanhamentos de performance para Vendas, Finanças e RH.
 
-- Reestruturou os modelos de People Analytics para **Azure Databricks e refatorincg dos dashboards,** permitindo uma redução de custo de R\$180 mil/ano pela internalização dos reports da área de RH.
+- Reestruturou os modelos de People Analytics para **Azure Databricks e refactoring dos dashboards,** permitindo uma redução de custo de R\$180 mil/ano pela internalização dos reports da área de RH.
 
 - Aplicação de IA generativa, RAG e Microsoft Copilot em soluções analíticas integradas ao Lakehouse, contribuindo para redução de 30% a 50% no tempo de entrega.
 
