@@ -12,8 +12,8 @@
   <a href="https://www.linkedin.com/in/gersonzanon"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/Campinas%2FSP-Brasil-0E2A47?style=flat-square" alt="Campinas/SP">
   <a href="CV.md"><img src="https://img.shields.io/badge/Curr%C3%ADculo-ver%20CV-22D3EE?style=flat-square&logo=readme&logoColor=black" alt="Currículo"></a>
-  <a href="O%20que%20eu%20levo.pdf"><img src="https://img.shields.io/badge/O%20que%20eu%20levo-compet%C3%AAncias-1F6FEB?style=flat-square&logo=target&logoColor=white" alt="O que eu levo"></a>
-  <a href="Portfolio.pdf"><img src="https://img.shields.io/badge/Portf%C3%B3lio-ver%20projetos-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Portfólio"></a>
+  <a href="https://gersonzanon.github.io/gersonzanon/viewer.html?p=levo"><img src="https://img.shields.io/badge/O%20que%20eu%20levo-compet%C3%AAncias-1F6FEB?style=flat-square&logo=target&logoColor=white" alt="O que eu levo"></a>
+  <a href="https://gersonzanon.github.io/gersonzanon/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-ver%20projetos-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Portfólio"></a>
 </p>
 
 ---
@@ -60,20 +60,20 @@ Minha atuação em Analytics Engineering, dados e inteligência de negócios con
 
 ### 📂 Portfólio de projetos
 
-📄 [O que eu levo](O%20que%20eu%20levo.pdf) · 🗺️ [Visão geral: 10 projetos, 1 jornada](Portfolio.pdf)
+🌐 **[Abrir o portfólio navegável](https://gersonzanon.github.io/gersonzanon/)** · 📄 [O que eu levo](https://gersonzanon.github.io/gersonzanon/viewer.html?p=levo) · 🗺️ [Visão geral: 10 projetos, 1 jornada](https://gersonzanon.github.io/gersonzanon/viewer.html?p=geral)
 
 | Ep | Episódio | Do que se trata |
 |:---:|---|---|
-| Ep 01 | [Do Atraso à Agilidade](Ep01_Banco_de_Vendas/) | Como acabei com os atrasos de 12 dashboards críticos otimizando o banco de Vendas on-premise. |
-| Ep 02 | [Uma Só Língua](Ep02_DW_corporativo/) | Como padronizei os dados em um Data Warehouse corporativo e coloquei todas as áreas na mesma página. |
-| Ep 03 | [Uma Regra, 12 Painéis](Ep03_Regras_de_negocio/) | Como centralizei as regras de negócio e refatorei os 12 dashboards corporativos da área comercial. |
-| Ep 04 | [20 Fontes, 1 Verdade](Ep04_Sellout_Estoque_on-premise/) | Como integrei mais de 20 fontes de sellout e estoque em uma base única para enxergar as vendas no PDV. |
-| Ep 05 | [Do Servidor à Nuvem](Ep05_Sellout_na_nuvem/) | Como coordenei a migração da base de Sellout & Estoque do on-premise para o Azure Databricks. |
-| Ep 06 | [Vendas na Nuvem](Ep06_Vendas_na_nuvem/) | Como liderei a migração do banco de Vendas para o Azure Databricks preservando os 12 dashboards da área. |
-| Ep 07 | [RH Movido a Dados](Ep07_RH_Movido_a_Dados/) | Como estou estruturando os indicadores de pessoas da Área Gente em uma base governada no Azure Databricks. |
-| Ep 08 | [Minuto de Ouro](Ep08_Minuto_de_Ouro/) | O painel vira mensagem: os mesmos números, na mão de quem vende, na hora de vender. |
-| Ep 09 | [Do dado à decisão](Ep09_Fechamento_e_Variance_Commentary/) | No fechamento, Controladoria e FP&A gastam dias conferindo números entre sistemas e escrevendo justificativas à mão. Dois agentes de IA apoiam esse trabalho, sempre sobre números certificados. |
-| Ep 10 | [People Analytics LatAm](Ep10_People_Analytics_LatAm/) | Como unifiquei os dados de pessoas de 5 países e usei IA para explicar, todo mês, onde estamos perdendo talentos. |
+| Ep 01 | [Do Atraso à Agilidade](https://gersonzanon.github.io/gersonzanon/viewer.html?p=01) | Como acabei com os atrasos de 12 dashboards críticos otimizando o banco de Vendas on-premise. |
+| Ep 02 | [Uma Só Língua](https://gersonzanon.github.io/gersonzanon/viewer.html?p=02) | Como padronizei os dados em um Data Warehouse corporativo e coloquei todas as áreas na mesma página. |
+| Ep 03 | [Uma Regra, 12 Painéis](https://gersonzanon.github.io/gersonzanon/viewer.html?p=03) | Como centralizei as regras de negócio e refatorei os 12 dashboards corporativos da área comercial. |
+| Ep 04 | [20 Fontes, 1 Verdade](https://gersonzanon.github.io/gersonzanon/viewer.html?p=04) | Como integrei mais de 20 fontes de sellout e estoque em uma base única para enxergar as vendas no PDV. |
+| Ep 05 | [Do Servidor à Nuvem](https://gersonzanon.github.io/gersonzanon/viewer.html?p=05) | Como coordenei a migração da base de Sellout & Estoque do on-premise para o Azure Databricks. |
+| Ep 06 | [Vendas na Nuvem](https://gersonzanon.github.io/gersonzanon/viewer.html?p=06) | Como liderei a migração do banco de Vendas para o Azure Databricks preservando os 12 dashboards da área. |
+| Ep 07 | [RH Movido a Dados](https://gersonzanon.github.io/gersonzanon/viewer.html?p=07) | Como estou estruturando os indicadores de pessoas da Área Gente em uma base governada no Azure Databricks. |
+| Ep 08 | [Minuto de Ouro](https://gersonzanon.github.io/gersonzanon/viewer.html?p=08) | O painel vira mensagem: os mesmos números, na mão de quem vende, na hora de vender. |
+| Ep 09 | [Do dado à decisão](https://gersonzanon.github.io/gersonzanon/viewer.html?p=09) | No fechamento, Controladoria e FP&A gastam dias conferindo números entre sistemas e escrevendo justificativas à mão. Dois agentes de IA apoiam esse trabalho, sempre sobre números certificados. |
+| Ep 10 | [People Analytics LatAm](https://gersonzanon.github.io/gersonzanon/viewer.html?p=10) | Como unifiquei os dados de pessoas de 5 países e usei IA para explicar, todo mês, onde estamos perdendo talentos. |
 
 ---
 

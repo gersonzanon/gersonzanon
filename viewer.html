@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projeto · Gerson Zanon</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<div class="bar"><div class="wrap">
+  <a class="btn" href="index.html">← Voltar</a>
+  <div class="titulo"><b id="t">Carregando…</b><span id="s"></span></div>
+  <a class="btn primary" id="baixar" href="#" download>Baixar PDF</a>
+</div></div>
+<main class="wrap">
+  <div class="paginas" id="paginas"><div class="status" id="status">Carregando o PDF…</div></div>
+  <nav class="nav-eps" id="nav"></nav>
+</main>
+<script src="assets/projetos.js"></script>
+<script type="module">
+import * as pdfjsLib from './assets/pdfjs/pdf.min.mjs';
+pdfjsLib.GlobalWorkerOptions.workerSrc = './assets/pdfjs/pdf.worker.min.mjs';
+const P = window.PROJETOS;
+const id = new URLSearchParams(location.search).get('p');
+const i = P.findIndex(x => x.id === id);
+const st = document.getElementById('status');
+if (i < 0) { location.replace('index.html'); }
+else {
+  const p = P[i];
+  const url = p.pdf.split('/').map(encodeURIComponent).join('/');
+  document.title = (p.ep ? p.ep + ' · ' : '') + p.titulo + ' · Gerson Zanon';
+  document.getElementById('t').textContent = (p.ep ? p.ep + ' · ' : '') + p.titulo;
+  document.getElementById('s').textContent = p.sub;
+  const dl = document.getElementById('baixar'); dl.href = url; dl.setAttribute('download', p.pdf.split('/').pop());
+  const nav = document.getElementById('nav');
+  const link = (q, txt) => { const a = document.createElement('a'); a.className = 'btn'; a.href = 'viewer.html?p=' + encodeURIComponent(q.id); a.textContent = txt; return a; };
+  nav.appendChild(i > 0 ? link(P[i-1], '← ' + (P[i-1].ep || P[i-1].titulo)) : document.createElement('span'));
+  const back = document.createElement('a'); back.className = 'btn'; back.href = 'index.html'; back.textContent = 'Voltar à lista'; nav.appendChild(back);
+  nav.appendChild(i < P.length-1 ? link(P[i+1], (P[i+1].ep || P[i+1].titulo) + ' →') : document.createElement('span'));
+  try {
+    const pdf = await pdfjsLib.getDocument({ url }).promise;
+    st.remove();
+    const box = document.getElementById('paginas');
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    for (let n = 1; n <= pdf.numPages; n++) {
+      const page = await pdf.getPage(n);
+      const w = Math.min(box.clientWidth, 1040);
+      const v1 = page.getViewport({ scale: 1 });
+      const vp = page.getViewport({ scale: (w / v1.width) * dpr });
+      const c = document.createElement('canvas'); c.width = vp.width; c.height = vp.height;
+      c.setAttribute('aria-label', 'Página ' + n + ' de ' + pdf.numPages);
+      box.appendChild(c);
+      await page.render({ canvasContext: c.getContext('2d'), viewport: vp }).promise;
+    }
+  } catch (e) { console.error('PDFERR', e && (e.name+': '+e.message));
+    st.innerHTML = 'Não foi possível mostrar o PDF aqui. <a href="' + url + '" style="color:#20D8F2">Abrir o PDF</a>';
+  }
+}
+</script>
+</body>
+</html>
