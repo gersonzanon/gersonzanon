@@ -10,11 +10,12 @@
 </p>
 
 <p align="center">
-  📍 Campinas/SP &nbsp;·&nbsp;
+  📍 Campinas e São Paulo/SP &nbsp;·&nbsp;
   📞 (19) 9.9235-4165 (<b>whats</b>) &nbsp;·&nbsp; (11) 9.9229-0495<br>
   ✉️ <a href="mailto:gerson.zanon@outlook.com">gerson.zanon@outlook.com</a> &nbsp;·&nbsp;
   💼 <a href="https://www.linkedin.com/in/gersonzanon">linkedin.com/in/gersonzanon</a> &nbsp;·&nbsp;
-  🐙 <a href="https://github.com/gersonzanon">github.com/gersonzanon</a>
+  🐙 <a href="https://github.com/gersonzanon">github.com/gersonzanon</a> &nbsp;·&nbsp;
+  🌐 <a href="https://gersonzanon.github.io/gersonzanon/">gersonzanon.github.io/gersonzanon</a>
 </p>
 
 <p align="center">

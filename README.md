@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gersonzanon"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/badge/Campinas%2FSP-Brasil-0E2A47?style=flat-square" alt="Campinas/SP">
+  <img src="https://img.shields.io/badge/Campinas%20e%20S%C3%A3o%20Paulo%2FSP-Brasil-0E2A47?style=flat-square" alt="Campinas e São Paulo/SP">
   <a href="CV.md"><img src="https://img.shields.io/badge/Curr%C3%ADculo-ver%20CV-22D3EE?style=flat-square&logo=readme&logoColor=black" alt="Currículo"></a>
   <a href="https://gersonzanon.github.io/gersonzanon/viewer.html?p=levo"><img src="https://img.shields.io/badge/O%20que%20eu%20levo-compet%C3%AAncias-1F6FEB?style=flat-square&logo=target&logoColor=white" alt="O que eu levo"></a>
   <a href="https://gersonzanon.github.io/gersonzanon/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-ver%20projetos-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Portfólio"></a>
