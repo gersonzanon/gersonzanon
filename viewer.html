@@ -8,9 +8,8 @@
 </head>
 <body>
 <div class="bar"><div class="wrap">
-  <a class="btn" href="index.html">← Voltar</a>
+  <a class="btn" href="index.html#portfolio">← Voltar</a>
   <div class="titulo"><b id="t">Carregando…</b><span id="s"></span></div>
-  <a class="btn primary" id="baixar" href="#" download>Baixar PDF</a>
 </div></div>
 <main class="wrap">
   <div class="paginas" id="paginas"><div class="status" id="status">Carregando o PDF…</div></div>
@@ -31,11 +30,10 @@ else {
   document.title = (p.ep ? p.ep + ' · ' : '') + p.titulo + ' · Gerson Zanon';
   document.getElementById('t').textContent = (p.ep ? p.ep + ' · ' : '') + p.titulo;
   document.getElementById('s').textContent = p.sub;
-  const dl = document.getElementById('baixar'); dl.href = url; dl.setAttribute('download', p.pdf.split('/').pop());
   const nav = document.getElementById('nav');
   const link = (q, txt) => { const a = document.createElement('a'); a.className = 'btn'; a.href = 'viewer.html?p=' + encodeURIComponent(q.id); a.textContent = txt; return a; };
   nav.appendChild(i > 0 ? link(P[i-1], '← ' + (P[i-1].ep || P[i-1].titulo)) : document.createElement('span'));
-  const back = document.createElement('a'); back.className = 'btn'; back.href = 'index.html'; back.textContent = 'Voltar à lista'; nav.appendChild(back);
+  const back = document.createElement('a'); back.className = 'btn'; back.href = 'index.html#portfolio'; back.textContent = 'Voltar à lista'; nav.appendChild(back);
   nav.appendChild(i < P.length-1 ? link(P[i+1], (P[i+1].ep || P[i+1].titulo) + ' →') : document.createElement('span'));
   try {
     const pdf = await pdfjsLib.getDocument({ url }).promise;
