@@ -17,7 +17,7 @@
   <div class="acoes">
     <a class="btn primary" href="#portfolio">Ver portfólio</a>
     <a class="btn" href="cv.html">Currículo</a>
-    <a class="btn" href="viewer.html?p=levo">O que eu levo</a>
+    <a class="btn" href="viewer.html?p=mapa">Minha jornada</a>
     <a class="btn" href="Gerson_Zanon_CV.pdf" download>Baixar CV (PDF)</a>
   </div>
 </section>
@@ -54,7 +54,7 @@
 (function(){
   function card(p){
     var a=document.createElement('a'); a.className='card'; a.href='viewer.html?p='+encodeURIComponent(p.id);
-    var tag=p.ep?'<span class="ep">'+p.ep+'</span>':'<span class="ep alt">'+(p.id==='levo'?'Competências':'Visão geral')+'</span>';
+    var tag=p.ep?'<span class="ep">'+p.ep+'</span>':'<span class="ep alt">'+(p.id==='mapa'?'Mapa visual':'Visão geral')+'</span>';
     a.innerHTML=tag+'<h2></h2><p></p><span class="abrir">Abrir →</span>';
     a.querySelector('h2').textContent=p.titulo; a.querySelector('p').textContent=p.sub; return a;
   }

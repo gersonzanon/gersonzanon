@@ -1,10 +1,10 @@
 window.PROJETOS = [
  {
-  "id": "levo",
+  "id": "mapa",
   "ep": "",
-  "titulo": "O que eu levo",
-  "sub": "Informação certa, na mão de quem decide, na hora de decidir.",
-  "pdf": "O que eu levo.pdf"
+  "titulo": "Minha jornada com dados",
+  "sub": "Da automação de relatórios à orquestração de agentes de IA. Uma evolução de competências, aplicações e impacto no negócio.",
+  "pdf": "Mapa_Visual_Jornada_Dados.pdf"
  },
  {
   "id": "geral",
