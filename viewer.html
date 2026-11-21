@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projeto · Gerson Zanon</title>
-<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/site.css?v=20261121">
 </head>
 <body>
 <div class="bar"><div class="wrap">
@@ -15,15 +15,15 @@
   <div class="paginas" id="paginas"><div class="status" id="status">Carregando o PDF…</div></div>
   <nav class="nav-eps" id="nav"></nav>
 </main>
-<script src="assets/projetos.js"></script>
+<script src="assets/projetos.js?v=20261121"></script>
 <script type="module">
 import * as pdfjsLib from './assets/pdfjs/pdf.min.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = './assets/pdfjs/pdf.worker.min.mjs';
 const P = window.PROJETOS;
-const id = new URLSearchParams(location.search).get('p');
+const id = ({levo:'mapa'})[new URLSearchParams(location.search).get('p')] || new URLSearchParams(location.search).get('p');
 const i = P.findIndex(x => x.id === id);
 const st = document.getElementById('status');
-if (i < 0) { location.replace('index.html'); }
+if (i < 0) { location.replace('index.html#portfolio'); }
 else {
   const p = P[i];
   const url = p.pdf.split('/').map(encodeURIComponent).join('/');
