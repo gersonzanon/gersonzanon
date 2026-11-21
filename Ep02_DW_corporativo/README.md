@@ -2,8 +2,8 @@
 
 **Como padronizei os dados em um Data Warehouse corporativo e coloquei todas as áreas na mesma página.**
 
-📄 [Ver o episódio em PDF](Ep%2002%20%C2%B7%20DW%20corporativo.pdf)
+🌐 [Ver o episódio no site](https://gersonzanon.github.io/gersonzanon/viewer.html?p=02)
 
 ---
 
-Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Visão geral do portfólio](../Portfolio.pdf)
+Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Portfólio completo](https://gersonzanon.github.io/gersonzanon/#portfolio)

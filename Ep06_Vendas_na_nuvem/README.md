@@ -2,8 +2,8 @@
 
 **Como liderei a migração do banco de Vendas para o Azure Databricks preservando os 12 dashboards da área.**
 
-📄 [Ver o episódio em PDF](Ep%2006%20%C2%B7%20Vendas%20na%20nuvem.pdf)
+🌐 [Ver o episódio no site](https://gersonzanon.github.io/gersonzanon/viewer.html?p=06)
 
 ---
 
-Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Visão geral do portfólio](../Portfolio.pdf)
+Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Portfólio completo](https://gersonzanon.github.io/gersonzanon/#portfolio)

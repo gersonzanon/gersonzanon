@@ -2,8 +2,8 @@
 
 **Como unifiquei os dados de pessoas de 5 países e usei IA para explicar, todo mês, onde estamos perdendo talentos.**
 
-📄 [Ver o episódio em PDF](Ep%2010%20%C2%B7%20People%20Analytics%20Latam.pdf)
+🌐 [Ver o episódio no site](https://gersonzanon.github.io/gersonzanon/viewer.html?p=10)
 
 ---
 
-Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Visão geral do portfólio](../Portfolio.pdf)
+Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Portfólio completo](https://gersonzanon.github.io/gersonzanon/#portfolio)

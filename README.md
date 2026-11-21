@@ -24,7 +24,7 @@ Minha trajetória conecta dados, tecnologia e conhecimento de negócio. Com form
 
 ### 🏭 Hoje, na Ypê
 
-- 📐 Na Ypê, atuo como Senior Analytics Engineer, estuturo modelos dimensionais, regras de negócio e especificações técnicas que apoiam indicadores de Vendas, Financeiro e RH. Participo da modernização do ambiente analítico, da migração de SQL Server para Azure Databricks e da evolução de relatórios e bases corporativas.
+- 📐 Na Ypê, atuo como Senior Analytics Engineer, estruturo modelos dimensionais, regras de negócio e especificações técnicas que apoiam indicadores de Vendas, Financeiro e RH. Participo da modernização do ambiente analítico, da migração de SQL Server para Azure Databricks e da evolução de relatórios e bases corporativas.
 - 🛡️ Atuo na governança de dados com Unity Catalog, promovendo segurança, controle de acesso, lineage, padronização e rastreabilidade dos ativos analíticos.
 - 🤖 Aplico IA generativa, RAG e Copilot à consulta de regras de negócio e documentação, validação de métricas, identificação de inconsistências e geração de narrativas executivas, acelerando análises e apoiando decisões.
 

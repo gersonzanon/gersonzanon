@@ -2,8 +2,8 @@
 
 **Como integrei mais de 20 fontes de sellout e estoque em uma base única para enxergar as vendas no PDV.**
 
-📄 [Ver o episódio em PDF](Ep%2004%20%C2%B7%20Sellout%20%26%20Estoque%20on-premise.pdf)
+🌐 [Ver o episódio no site](https://gersonzanon.github.io/gersonzanon/viewer.html?p=04)
 
 ---
 
-Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Visão geral do portfólio](../Portfolio.pdf)
+Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Portfólio completo](https://gersonzanon.github.io/gersonzanon/#portfolio)

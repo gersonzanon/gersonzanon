@@ -2,8 +2,8 @@
 
 **Como estou estruturando os indicadores de pessoas da Área Gente em uma base governada no Azure Databricks.**
 
-📄 [Ver o episódio em PDF](Ep%2007%20%C2%B7%20RH%20Movido%20a%20Dados.pdf)
+🌐 [Ver o episódio no site](https://gersonzanon.github.io/gersonzanon/viewer.html?p=07)
 
 ---
 
-Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Visão geral do portfólio](../Portfolio.pdf)
+Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Portfólio completo](https://gersonzanon.github.io/gersonzanon/#portfolio)

@@ -2,8 +2,8 @@
 
 **Como coordenei a migração da base de Sellout & Estoque do on-premise para o Azure Databricks.**
 
-📄 [Ver o episódio em PDF](Ep%2005%20%C2%B7%20Sellout%20na%20nuvem.pdf)
+🌐 [Ver o episódio no site](https://gersonzanon.github.io/gersonzanon/viewer.html?p=05)
 
 ---
 
-Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Visão geral do portfólio](../Portfolio.pdf)
+Série *Histórias Reais de Dados e Negócios* · [Voltar ao perfil](../README.md) · [Portfólio completo](https://gersonzanon.github.io/gersonzanon/#portfolio)
